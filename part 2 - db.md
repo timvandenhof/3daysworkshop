@@ -318,7 +318,7 @@ spec:
 
 Finally, `localhost/forecasts` works without errors.
 
-# 2.5 Secrets (bonus)
+# 2.6 Secrets (bonus)
 
 ```sh
 kubectl create secret -n workshop-3days generic db \
