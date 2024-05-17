@@ -193,8 +193,8 @@ volumePermissions:
 Now we can install our chart with the following command:
 
 ```sh
-kubectl apply -f infra/postgresql-pvc.yaml
 kubectl create namespace db || true
+kubectl apply -f infra/postgresql-pvc.yaml
 helm upgrade db bitnami/postgresql \
   --install \
   --namespace db \
